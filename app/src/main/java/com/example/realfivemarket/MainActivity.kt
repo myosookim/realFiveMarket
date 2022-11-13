@@ -6,7 +6,6 @@ import android.os.Bundle
 import com.example.realfivemarket.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-
     lateinit var binding : ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,6 +15,11 @@ class MainActivity : AppCompatActivity() {
 
         binding.tmpbtn.setOnClickListener {
             val intent = Intent(this, Screen_MainActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.tmpbtn2.setOnClickListener {
+            val intent = Intent(this, MyprofileActivity::class.java)
             startActivity(intent)
         }
     }

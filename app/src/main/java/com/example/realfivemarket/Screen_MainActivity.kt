@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.realfivemarket.databinding.ActivityMainBinding
 import com.example.realfivemarket.databinding.ActivityScreenMainBinding
+import com.example.realfivemarket.databinding.FragmentMenuBinding
 
 class Screen_MainActivity : AppCompatActivity() {
     lateinit var binding : ActivityScreenMainBinding
@@ -12,7 +13,5 @@ class Screen_MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityScreenMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-
     }
 }
