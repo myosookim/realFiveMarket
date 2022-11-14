@@ -14,7 +14,7 @@
         android:layout_height="80dp">
 
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/bell_btn"
             android:layout_width="49dp"
             android:layout_height="53dp"
             android:layout_marginTop="12dp"
@@ -22,18 +22,20 @@
             android:background="@android:color/transparent"
             android:src="@drawable/bell"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageButton
-            android:id="@+id/imageButton6"
+            android:id="@+id/menu_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="18dp"
             android:background="@android:color/transparent"
-            android:src="@drawable/img"
+            android:src="@drawable/menu"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SpeakableTextPresentCheck" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
